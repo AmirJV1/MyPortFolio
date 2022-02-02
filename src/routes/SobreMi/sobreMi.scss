@@ -1,7 +1,10 @@
 // Header and miain container
+body,
+html {
+	background-color: #15142c;
+}
 .sobreMiMainCont {
 	padding: 25px;
-	margin-top: 25px;
 	display: flex;
 	flex-direction: column;
 
@@ -11,11 +14,20 @@
 .sobreMiMainCont h1 {
 	text-align: center;
 	margin: 0;
+	background-color: transparent;
 }
 .titleCont {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.titleCont,
+.imageAndText,
+.text {
+	background: none !important;
+}
+.text {
+	background-color: none !important;
 }
 .hand {
 	transform: rotate(-30deg);
@@ -108,19 +120,7 @@
 	cursor: pointer;
 	transition: color 0.5s;
 }
-
-// Background colors and wave
-
-.spacer {
-	aspect-ratio: 960/540;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-.wave1{
-	background-image: url("../../../public/waves1.svg");
-}
-.ver{
+.ver {
 	z-index: 100;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -129,48 +129,30 @@
 	background-color: transparent;
 	color: #fff;
 }
-.geom1{
-	width: 150px;
-	height: 150px;
-	background-image: url("../../../public/geom1.svg");
-	animation: hoverGeom1 50s infinite;
-}
-.geom2{
-	width: 150px;
-	height: 150px;
-	background-image: url("../../../public/geom2.svg");
-	animation: hoverGeom1 40s infinite;
-}
-.geom3{
-	width: 150px;
-	height: 150px;
-	background-image: url("../../../public/geom3.svg");
-	animation: hoverGeom3 42s infinite;
-}
+
 @keyframes hoverGeom1 {
-	0%{
+	0% {
 		transform: translateY(-200px) rotate(10deg);
 	}
-	50%{
+	50% {
 		transform: translateY(200px) rotate(-10deg);
 	}
-	100%{
+	100% {
 		transform: translateY(-200px) rotate(10deg);
 	}
 }
 @keyframes hoverGeom3 {
-	0%{
+	0% {
 		transform: translateY(130px) rotate(35deg);
 	}
-	50%{
+	50% {
 		transform: translateY(-130px) rotate(-35deg);
 	}
-	100%{
+	100% {
 		transform: translateY(130px) rotate(35deg);
 	}
 }
 @media (min-width: 700px) {
-	
 	.imageAndText {
 		flex-direction: row;
 	}
@@ -180,20 +162,55 @@
 	.meImg {
 		margin-right: 40px;
 	}
-	.ver{
+	.ver {
 		display: block;
 		position: absolute;
 	}
-	.geom1{
+	.geom1 {
 		top: 75vh;
 		left: 10vw;
 	}
-	.geom2{
+	.geom2 {
 		top: 75vh;
 		right: 15vw;
 	}
-	.geom3{
+	.geom3 {
 		top: 75vh;
 		right: 10vw;
+	}
+	// Background colors and wave
+
+	.spacer {
+		aspect-ratio: 960/540;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.wave1 {
+		background-image: url('../../../public/waves1.svg');
+	}
+	.wave2 {
+		background-image: url('../../../public/waves2.svg');
+	}
+	.wave3 {
+		background-image: url('../../../public/waves3.svg');
+	}
+	.geom1 {
+		width: 150px;
+		height: 150px;
+		background-image: url('../../../public/geom1.svg');
+		animation: hoverGeom1 50s infinite;
+	}
+	.geom2 {
+		width: 150px;
+		height: 150px;
+		background-image: url('../../../public/geom2.svg');
+		animation: hoverGeom1 40s infinite;
+	}
+	.geom3 {
+		width: 150px;
+		height: 150px;
+		background-image: url('../../../public/geom3.svg');
+		animation: hoverGeom3 42s infinite;
 	}
 }

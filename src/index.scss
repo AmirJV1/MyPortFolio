@@ -3,14 +3,26 @@ $theme-colors: (
 	'dark': #15142c46,
 	'danger': #de5277
 );
-* {
-	color: #fff;
+body,
+html {
 	background-color: #15142c;
 }
-*::selection{
-	background-color: #2B2350;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+li,
+span {
+	color: #fff;
 }
-div{
+*::selection {
+	background-color: #2b2350;
+}
+div {
 	position: relative;
 }
 @import '~bootstrap/scss/bootstrap';

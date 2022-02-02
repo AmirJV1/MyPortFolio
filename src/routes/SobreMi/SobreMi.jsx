@@ -3,7 +3,7 @@ import './sobreMi.scss';
 
 const SobreMi = () => {
 	return (
-		<div className="sobreMiMainCont">
+		<div className="sobreMiMainCont spacer wave2">
 			<div className="ver geom1"></div>
 			<div className="ver geom2"></div>
 			<div className="ver geom3"></div>
@@ -13,12 +13,12 @@ const SobreMi = () => {
 			<div className="imageAndText">
 				<img className="meImg" src="LOGO.jpg" alt="Amir profile" draggable="false"/>
 				<div>
-					<p>
+					<p className='text'>
 						Un desarrollador <span style={{ color: '#DE5277' }}>Front end</span> con poca
 						experiencia, pero muchas ganas de comenzar nuevos proyectos que aporten a la
 						comunidad.
 					</p>
-					<p>
+					<p className='text'>
 						Me encantan los gatos, la pizza y el cafe, si tenes algun proyecto en mente,
 						no dudes en{' '}
 						<a style={{ color: '#FF863B' }} href="/contacto">

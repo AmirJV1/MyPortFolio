@@ -1,0 +1,14 @@
+// changed colors in bootsrap
+$theme-colors: (
+	'dark': #15142c46,
+	'danger': #de5277
+);
+* {
+	color: #fff;
+	background-color: #15142c;
+}
+*::selection{
+	background-color: #de527794;
+}
+
+@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,119 @@
+// Header and miain container
+.sobreMiMainCont {
+	padding: 25px;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	min-height: 100vh;
+}
+.sobreMiMainCont h1 {
+	text-align: center;
+	margin: 0;
+}
+.titleCont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hand {
+	transform: rotate(-30deg);
+	width: fit-content;
+	height: fit-content;
+	font-size: 70px;
+	background-color: transparent;
+	animation: shake forwards 6s;
+}
+@keyframes shake {
+	0% {
+		transform: rotate(30deg);
+	}
+	50% {
+		transform: rotate(-30deg);
+	}
+	75% {
+		transform: rotate(-30deg);
+	}
+	100% {
+		transform: rotate(-30deg);
+	}
+}
+// text and image
+.meImg {
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+}
+.imageAndText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.imageAndText p {
+	text-align: left;
+}
+// My languages section
+
+.title2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.title2 span {
+	font-size: 70px;
+	width: min-content;
+	align-self: center;
+	animation: move 3s ease infinite;
+}
+@keyframes move {
+	0% {
+		transform: translateX(10rem);
+	}
+	50% {
+		transform: translateX(-10rem);
+	}
+	100% {
+		transform: translateX(10rem);
+	}
+}
+.frontEnd,
+.backEnd,
+.spoken {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.table ul {
+	align-self: center;
+	width: 20rem;
+	display: grid;
+    column-gap: 1.5rem;
+	grid-template-columns: repeat(3, 1fr);
+}
+.table ul li:hover {
+	color: #ff863b;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.spoken ul li:hover{
+    color: rgb(12, 241, 12);
+    cursor: pointer;
+    transition: color 0.5s;
+}
+@media (min-width: 700px) {
+	.imageAndText {
+		flex-direction: row;
+	}
+	.imageAndText p {
+		width: 40rem;
+	}
+	.meImg {
+		margin-right: 40px;
+	}
+}

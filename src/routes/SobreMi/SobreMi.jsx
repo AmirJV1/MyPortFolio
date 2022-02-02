@@ -4,6 +4,9 @@ import './sobreMi.scss';
 const SobreMi = () => {
 	return (
 		<div className="sobreMiMainCont">
+			<div className="ver geom1"></div>
+			<div className="ver geom2"></div>
+			<div className="ver geom3"></div>
 			<div className="titleCont">
 				<h1>Hola, soy Amir Velasquez</h1> <span className="hand">&#9995;</span>
 			</div>

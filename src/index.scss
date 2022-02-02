@@ -8,7 +8,9 @@ $theme-colors: (
 	background-color: #15142c;
 }
 *::selection{
-	background-color: #de527794;
+	background-color: #2B2350;
 }
-
+div{
+	position: relative;
+}
 @import '~bootstrap/scss/bootstrap';

@@ -5,6 +5,7 @@ import './index.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Component import
 import SobreMi from './routes/SobreMi/SobreMi';
+import Contacto from './routes/Contacto/Contacto';
 import NavBar from './Components/NavBar/NavBar';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
     <NavBar/>
 			<Routes>
 				<Route path="/" element={<SobreMi />} />
+				<Route path="/contacto" element={<Contacto />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>,

@@ -12,7 +12,7 @@ html {
 	max-width: 97vw;
 }
 .sobreMiMainCont h1 {
-	text-align: center;
+	text-align: justify;
 	margin: 0;
 	padding: 0;
 	background-color: transparent;
@@ -129,6 +129,9 @@ html {
 	cursor: pointer;
 	transition: color 0.5s;
 }
+.table ul li:active{
+	color: aqua;
+}
 .ver {
 	z-index: 100;
 	background-repeat: no-repeat;
@@ -159,6 +162,17 @@ html {
 	}
 	100% {
 		transform: translateY(130px) rotate(35deg);
+	}
+}
+@keyframes hoverGeom2 {
+	0% {
+		transform: translateY(250px) rotate(55deg);
+	}
+	50% {
+		transform: translateY(-250px) rotate(-55deg);
+	}
+	100% {
+		transform: translateY(250px) rotate(55deg);
 	}
 }
 .img1 {
@@ -197,7 +211,7 @@ html {
 		left: 10vw;
 	}
 	.geom2 {
-		top: 75vh;
+		top: 110vh;
 		right: 15vw;
 	}
 	.geom3 {
@@ -232,7 +246,7 @@ html {
 		width: 150px;
 		height: 150px;
 		background-image: url('../../../public/geom2.svg');
-		animation: hoverGeom1 40s infinite;
+		animation: hoverGeom2 37s infinite;
 	}
 	.geom3 {
 		width: 150px;

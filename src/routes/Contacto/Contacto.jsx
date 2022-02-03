@@ -4,8 +4,8 @@ import { SocialIcon } from 'react-social-icons';
 const Contacto = () => {
 	return (
 		<>
-		<div className="contactMainCont flex-col spacer wavebkg1">
-			<div className="contactTitle">
+			<div className="contactMainCont flex-col spacer wavebkg1">
+				<div className="contactTitle">
 					<h1>Hablemos!</h1>
 				</div>
 				<div className="contactTableCont">
@@ -46,8 +46,9 @@ const Contacto = () => {
 					</div>
 				</div>
 				<i style={{ color: '#fff' }}>
-					"Todas las grandes cosas comienzan con una simple conversación"
+					“Si todos avanzamos juntos, el éxito llegará solo”. — Henry Ford
 				</i>
+				<img src="./stock.svg" alt="stonks" className="stonks" />
 			</div>
 		</>
 	);

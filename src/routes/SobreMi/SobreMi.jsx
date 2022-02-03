@@ -22,11 +22,19 @@ const SobreMi = () => {
 				</div>
 				<div>
 					<p className="text">
+						<i>
+							“No deberías hacer las cosas de manera diferente solamente para que sean
+							distintas. Necesitan ser mejores”. - Elon Musk
+						</i>{' '}
+						<br />
+					</p>
+					<p className="text">
 						Un desarrollador <span style={{ color: '#FE5277' }}>Front end</span> listo
-						para comerme al mundo, con poca experiencia en{' '}
-						<span style={{ color: '#Fe2012' }}>Back end</span>, pero muchas ganas de
-						comenzar nuevos proyectos que aporten a la comunidad y crecer de manera
-						laboral.
+						para comerme al mundo, adentrandome en el{' '}
+						<span style={{ color: '#Fe2012' }}>Back end</span>, buscando proyectos y
+						empleos para ganar experiencia y afilar mis habilidades con nuevos retos que
+						me ayuden a crecer de manera profesional, me considero una persona seria,
+						enfocada y creativa.	
 					</p>
 					<p className="text">
 						Me encantan los gatos, la pizza y el cafe, si tenes algun proyecto en mente,

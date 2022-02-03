@@ -73,7 +73,7 @@ const Trabajos = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<h2>HTML & CSS Chuck norris joke API use</h2>
+								<h2>HTML & CSS Chuck norris joke API - consumo de API</h2>
 							</a>
 						</div>
 					</div>

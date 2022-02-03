@@ -5,10 +5,16 @@ const Trabajos = () => {
 		<div className="workMainCont">
 			<div className="spacer verWave2">
 				<div className="workCont flex-col">
-					<div className="textCont">
+					<div className="textCont bounce-top ">
 						<h1>Mis trabajos </h1>
 						<span>&#128175;</span> <span> &#128076;</span>
 					</div>
+					<div className='callCont bounce-top '>
+							<h2>Me falta un trabajo!</h2>
+							<p>
+								Y ese es el tuyo!, <a style={{textDecorationColor:"#15ff00"}} href="/contacto"><span style={{color:"#15ff00"}}>contactame!</span></a> para cotizar sin compromiso
+							</p>
+						</div>
 					<div className="works">
 						<div className="work">
 							<a
@@ -69,12 +75,6 @@ const Trabajos = () => {
 							>
 								<h2>HTML & CSS Chuck norris joke API use</h2>
 							</a>
-						</div>
-						<div className='callCont'>
-							<h2>Me falta un trabajo!</h2>
-							<p>
-								Y ese es el tuyo!, <a style={{textDecorationColor:"#15ff00"}} href="/contacto"><span style={{color:"#15ff00"}}>contactame!</span></a> para cotizar sin compromiso
-							</p>
 						</div>
 					</div>
 				</div>

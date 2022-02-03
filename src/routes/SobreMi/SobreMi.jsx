@@ -8,17 +8,18 @@ const SobreMi = () => {
 			<div className="ver geom2"></div>
 			<div className="ver geom3"></div>
 			<div className="titleCont">
-				<h1>Hola, soy Amir Velasquez</h1> <span className="hand">&#9995;</span>
+				<h1>Hola, soy Amir Velasquez</h1> <span className="wobble-hor-bottom hand">&#9995;</span>
 			</div>
 			<div className="imageAndText">
-				<img className="meImg" src="LOGO.jpg" alt="Amir profile" draggable="false"/>
+				<img className="meImg" src="LOGO.jpg" alt="Amir profile" draggable="false" />
 				<div>
-					<p className='text'>
-						Un desarrollador <span style={{ color: '#DE5277' }}>Front end</span> con poca
-						experiencia, pero muchas ganas de comenzar nuevos proyectos que aporten a la
-						comunidad.
+					<p className="text">
+						Un desarrollador <span style={{ color: '#FE5277' }}>Front end</span> listo
+						para comerme al mundo, con poca experiencia en{' '}
+						<span style={{ color: '#Fe2012' }}>Back end</span>, pero muchas ganas de
+						comenzar nuevos proyectos que aporten a la comunidad y crecer de manera laboral.
 					</p>
-					<p className='text'>
+					<p className="text">
 						Me encantan los gatos, la pizza y el cafe, si tenes algun proyecto en mente,
 						no dudes en{' '}
 						<a style={{ color: '#FF863B' }} href="/contacto">

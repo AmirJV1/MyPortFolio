@@ -9,6 +9,9 @@ $theme-colors: (
 .container{
 	margin: 0;
 }
+img{
+	user-select: none;
+}
 body,
 html {
 	background-color: #15142c;

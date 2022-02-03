@@ -48,7 +48,7 @@ const Contacto = () => {
 				<i style={{ color: '#fff' }}>
 					“Si todos avanzamos juntos, el éxito llegará solo”. — Henry Ford
 				</i>
-				<img src="./stock.svg" alt="stonks" className="stonks" />
+				<img src="./stock.svg" alt="stonks" className="stonks" draggable="false" />
 			</div>
 		</>
 	);

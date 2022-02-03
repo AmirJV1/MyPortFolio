@@ -14,6 +14,8 @@ img{
 }
 body,
 html {
+	max-width: 100vw !important;
+	margin: 0 !important;
 	background-color: #15142c;
 }
 p,

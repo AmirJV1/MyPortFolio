@@ -12,7 +12,7 @@ const NavBar = () => {
 		// 	<Link to="/contacto">Contacto</Link>
 		// 	<Link to="/Trabajos">Trabajos</Link>
 		// </Navbar>
-		<Navbar sticky="top" expand="sm" collapseOnSelect bg="dark" variant="dark">
+		<Navbar sticky="top" expand="sm" collapseOnSelect className='px-0' bg="dark" variant="dark">
 			<Container>
 				<Navbar.Brand href="#">Amir Velasquez</Navbar.Brand>
 				<NavbarToggle aria-controls="responsive-navbar-nav" />

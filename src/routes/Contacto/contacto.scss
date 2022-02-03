@@ -8,15 +8,14 @@
 	margin-top: 25px;
 }
 .contactTableCont {
-	overflow-x: hidden;
-	overflow-y: hidden;
 	margin: 20px;
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.25);
 	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
 	border-radius: 10px;
-
+	max-width: 90vw;
+	max-height: 90vh;
 }
 .spacer {
 	aspect-ratio: 540/960;
@@ -28,8 +27,8 @@
 	background-image: url('../../../public/wave1.svg');
 }
 .iconTable {
-    align-items: center;
-    justify-items: center;
+	align-items: center;
+	justify-items: center;
 	height: 30vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -63,10 +62,10 @@
 	}
 }
 @media (min-width: 800px) {
-    .spacer{
-        aspect-ratio: 980/540;
-    }
-    .wavebkg1{
-        background-image: url("../../../public/wave2.svg");
-    }
+	.spacer {
+		aspect-ratio: 960/540;
+	}
+	.wavebkg1 {
+		background-image: url('../../../public/wave2.svg');
+	}
 }

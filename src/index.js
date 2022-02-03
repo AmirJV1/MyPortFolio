@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Component import
 import SobreMi from './routes/SobreMi/SobreMi';
 import Contacto from './routes/Contacto/Contacto';
+import Trabajos from './routes/Trabajos/Trabajos';
 import NavBar from './Components/NavBar/NavBar';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
 			<Routes>
 				<Route path="/" element={<SobreMi />} />
 				<Route path="/contacto" element={<Contacto />} />
+				<Route path="/trabajos" element={<Trabajos />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>,

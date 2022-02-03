@@ -1,0 +1,20 @@
+.vertWave1{
+    background-image: url("../../../public/vertWave1.svg");
+}
+.verWave2{
+    background-image: url("../../../public/vertWave2.svg");
+}
+.textCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textCont span{
+    font-size: 30px;
+}
+.spacer {
+	aspect-ratio: 540/960;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

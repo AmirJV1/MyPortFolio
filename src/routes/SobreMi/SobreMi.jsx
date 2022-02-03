@@ -62,6 +62,7 @@ const SobreMi = () => {
 						<ul>
 							<li>Ingles - Intemedio</li>
 							<li>Español - Nativo</li>
+							<li>Git: Github - Intermedio</li>
 						</ul>
 					</div>
 				</div>
